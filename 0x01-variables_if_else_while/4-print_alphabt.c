@@ -1,14 +1,23 @@
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
 /**
- * main - prints all single digit numbers of base 10 starting from 0
+ * main - Entry point
  *
- * Return: Always 0.
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-int num;
-for (num = 0; num < 10; num++)
-printf("%d", num);
-printf("\n");
+char low, e, q;
+
+e = 'e';
+q = 'q';
+
+for (low = 'a'; low <= 'z'; low++)
+{
+if (low != e && low != q)
+putchar (low);
+}
+putchar ('\n');
 return (0);
 }
