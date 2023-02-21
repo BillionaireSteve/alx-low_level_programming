@@ -4,8 +4,13 @@
  *
  * Return: Always 0.
  */
-int main(void)
+void print_alphabet(void)
 {
-print_alphabet();
+char c;
+for (c = 'a'; c <= 'z'; c++)
+{
+_putchar(c);
+}
+_putchart('\n');
 return (0);
 }
