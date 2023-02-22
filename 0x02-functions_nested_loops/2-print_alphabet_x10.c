@@ -12,6 +12,7 @@ while (i <= 0)
 for (c = 'a'; c <= 'z'; c++)
 {
 _putchar(c);
+c++;
 }
 _putchar('\n');
 i++;
