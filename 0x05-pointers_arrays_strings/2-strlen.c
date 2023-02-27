@@ -14,5 +14,5 @@ while (*s != '\0')
 len++;
 s++;
 }
-retun(len);
+return(len);
 }
