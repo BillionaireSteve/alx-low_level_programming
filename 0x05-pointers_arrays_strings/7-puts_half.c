@@ -9,13 +9,13 @@ int len = 0;
 while (*str != '\0')
 {
 len++
-str--;
+str++;
 }
 str -= (ln / 2);
 while (*str != '\0')
 {
 _putchar(*str);
-str--;
+str++;
 }
 _putchar('\n')
 }
