@@ -11,7 +11,7 @@ while (*str != '\0')
 len++;
 str++;
 }
-str -= (ln / 2);
+str -= (len / 2);
 while (*str != '\0')
 {
 _putchar(*str);
