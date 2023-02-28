@@ -8,11 +8,11 @@
  */
 void print_arry(int *a, int b)
 {
-int t;
+int t = 0;
 for (t = 0; t < b; t++)
 {
 printf("%d", a[t]);
-if (t != b - 1)
+if (t < n - 1)
 printf(", ");
 }
 printf("\n");
