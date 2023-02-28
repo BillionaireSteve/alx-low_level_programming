@@ -30,5 +30,5 @@ i++;
 }
 }
 signo *= -1;
-return (n * signo);
+return (signo * n);
 }
