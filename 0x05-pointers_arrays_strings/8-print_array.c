@@ -9,10 +9,10 @@
 void print_arry(int *a, int b)
 {
 int t;
-for (t = 0; t < n; t++)
+for (t = 0; t < b; t++)
 {
 printf("%d", a[t]);
-if (t != n - 1)
+if (t != b - 1)
 printf(", ");
 }
 printf("\n");
