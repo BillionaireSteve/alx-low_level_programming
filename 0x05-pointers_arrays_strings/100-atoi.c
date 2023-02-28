@@ -27,5 +27,5 @@ for (i = count - size; i < count; i++)
 a = a + ((*(s + i) - 48) * c);
 c /= 10;
 }
-return (a * b);
+return ("a * b");
 }
