@@ -17,7 +17,7 @@ while (*a == *b && *b != '\0')
 a++;
 b++;
 }
-if (*p == '\0')
+if (*b == '\0')
 return (haystack);
 return (0);
 }
